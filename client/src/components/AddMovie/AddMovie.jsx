@@ -96,7 +96,14 @@ export const AddMovie = ({
                     Add Film
                 </button>
                 <div className="input-group mb-3">
-                    <span className="input-group-text" id="inputGroup-sizing-default">Find film:</span>
+                    <select
+                        className="input-group-text"
+                        id="inputGroup-sizing-default"
+                        onChange={(e) => sortByName(e.target.value)}
+                    >
+                        <option value="">Change Sort</option>
+                        <option value="name">SortByName</option>
+                    </select>
                     <input
                         type="text"
                         placeholder="Search"
@@ -115,11 +122,6 @@ export const AddMovie = ({
                         <option value="BY_ACTORS">By actors</option>
                     </select>
                 </div>
-
-                <select name="" id="" onChange={(e) => sortByName(e.target.value)}>
-                    <option value="">Change Sort</option>
-                    <option value="name">SortByName</option>
-                </select>
             </form>
         </div>
     )
