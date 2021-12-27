@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/webbylab_test/static/css/main.10ca04f4.css",
+    "main.js": "/webbylab_test/static/js/main.00ddbdbd.js",
+    "static/media/movie.txt": "/webbylab_test/static/media/movie.db009b8cacb41b300d7f.txt",
+    "index.html": "/webbylab_test/index.html",
+    "main.10ca04f4.css.map": "/webbylab_test/static/css/main.10ca04f4.css.map",
+    "main.00ddbdbd.js.map": "/webbylab_test/static/js/main.00ddbdbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10ca04f4.css",
+    "static/js/main.00ddbdbd.js"
+  ]
+}
