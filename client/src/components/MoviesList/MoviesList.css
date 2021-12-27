@@ -1,0 +1,33 @@
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+}
+
+.movie__item-date {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.movie__img {
+    height: 100px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.modal_img {
+    height: 400px;
+}
+
+.btn {
+    height: 40px;
+}
