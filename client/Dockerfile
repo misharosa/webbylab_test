@@ -12,8 +12,7 @@ ENV PATH /webbylab_test/node_modules/.bin:$PATH
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install react-scripts@3.4.1 -g --silent
-RUN npm install -s (or --silent)
-
+RUN npm install  --silent
 
 # Bundle app source
 COPY . ./
